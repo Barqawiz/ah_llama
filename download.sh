@@ -1,9 +1,9 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
-PRESIGNED_URL=""             # replace with presigned url from email
-MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
-TARGET_FOLDER=""             # where all files should end up
+PRESIGNED_URL="https://dobf1k6cxlizq.cloudfront.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kb2JmMWs2Y3hsaXpxLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODI1MjcxNzd9fX1dfQ__&Signature=G0ARAvzeQ2abruDqFezzpJm~QDQgtOIA~5965hP6rqE-7VT5pNoLx0D7LaU~yUyVm6vzZ9JDtMBwnKD5GBwWtNRvMZBAec62FHXWUa1BSAnh8SzvAwucknPD3k1vrKpaFHl7DnP2cDEz3JtJqTH5gbTdkcZAqzGs1FEb2vJMlRotjymA-mKI3POv1EGlMam2~vOXDrhY3RAzQCFrEHhmZs9o50yFUsPePf5TtMmTx7N~OqJ-0-RLfFtoX5~DiVmXDjQjmZvniAx8hfqO1Uls7Zacn5rgiTNpIJJpIdVtPHUE3D0PZKeqYlsmS5Z2ynHisUys4dwRzfqlL16w6KcKfw__&Key-Pair-Id=K231VYXPC1TA1R"             # replace with presigned url from email
+MODEL_SIZE="30B"  # 7B,13B,30B,65B
+TARGET_FOLDER="model_dir"             # where all files should end up
 
 declare -A N_SHARD_DICT
 
