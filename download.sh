@@ -1,7 +1,7 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
-PRESIGNED_URL="https://dobf1k6cxlizq.cloudfront.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kb2JmMWs2Y3hsaXpxLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODM4MzU5NTV9fX1dfQ__&Signature=QB64hi4eMqw4Vp3xdkySCd7MkJPen37Gikm3TgKp3HtW8s0xiO4v1WSwP06~oyrBYf803YeuhVYPyY7jDEgwX7tGCrWEF5yDjyfmeAZwyYU8T5t4errjgKYRwYKBynXaX1pXe5iIvGooR8DkYhfldGxXjjc3f3kKwzLupuAIt8D7FW3E5Wqh7xfEJmAKTDZdhsMiIm6LB5z1z1Zw1dFKM7KOpL3ST~4dDgu4h853uN~6XnjsAeS-BooNSSkarslvRzx-p5hXoYerUuRCGAJfBOQ73aDfzA4CUXV2EozcVVR4JOgHzCNwU-Vmr12QY03VIjP6xBRzfLxyVM-xZBRMFg__&Key-Pair-Id=K231VYXPC1TA1R"
+PRESIGNED_URL=""
 MODEL_SIZE="30B"  # 7B,13B,30B,65B
 TARGET_FOLDER="model_dir"             # where all files should end up
 
